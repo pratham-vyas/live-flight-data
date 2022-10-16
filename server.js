@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 require("dotenv").config();
 app.use(cors());
-const PORT = 3001;
+const PORT = 8000;
 
 const codeCheck = (req,res,next) => {
     console.log("here",req.params)
